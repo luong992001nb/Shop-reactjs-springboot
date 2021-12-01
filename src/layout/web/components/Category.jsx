@@ -7,15 +7,15 @@ import 'swiper/swiper.min.css'
 import 'swiper/components/navigation/navigation.min.css'
 import 'swiper/components/pagination/pagination.min.css'
 import SwiperCore, {
-  Autoplay, Pagination, Navigation
+   Pagination, Navigation
 } from 'swiper';
-import { read } from '../../../api/productAPI';
+
 
 // install Swiper modules
 SwiperCore.use([Pagination, Navigation]);
 const Category=({categoryAp,product})=>{
     const {id} =useParams();
-    const navigate = useNavigate();
+    
     const [category,setCategory]  = useState([]);
     const [produ,setPro] = useState([]);
     useEffect(()=>{

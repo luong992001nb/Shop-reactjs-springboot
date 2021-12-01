@@ -34,8 +34,8 @@ const SlideProduct = ({product}) => {
         <div className="row">
           {product && product.map((item, index) => {
             return (
-                <SwiperSlide>
-              <div key={index}  >
+                <SwiperSlide key={index} >
+              <div  >
                 <div className="single-product"  >
                   <div className="product-f-image">
                     <img src={item.avatar} alt=""  style={{height:'240',width: '200'}}/>

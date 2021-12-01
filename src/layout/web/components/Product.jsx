@@ -5,7 +5,7 @@ import 'swiper/swiper.min.css'
 import 'swiper/components/navigation/navigation.min.css'
 import 'swiper/components/pagination/pagination.min.css'
 import SwiperCore, {
-  Autoplay, Pagination, Navigation
+   Pagination, Navigation
 } from 'swiper';
 
 // install Swiper modules

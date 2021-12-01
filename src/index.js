@@ -4,6 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './layout/web/css/bootstrap.min.css'
+import './layout/web/style.css'
+import './layout/web/css/font-awesome.min.css'
+import './layout/web/css/owl.carousel.css'
+import './layout/web/css/responsive.css'
+import './layout/adm/vendor/fontawesome-free/css/all.min.css'
+import './layout/adm/css/sb-admin-2.min.css'
+
+
+
+
+
 
 
 ReactDOM.render(
@@ -11,6 +23,7 @@ ReactDOM.render(
     <App />
   </React.StrictMode>,
   document.getElementById('root')
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
